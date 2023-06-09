@@ -20,10 +20,10 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
                 .background(backgroundColor)
-            //배경색 이름을 표시한다.
+            //배경색 이름을 표시
             Text("\(backgroundColorName)")
             Button("Change Color") {
-                //배경색과 배경색 이름을 토글한다.
+                //배경색과 배경색 이름을 토글
                 if backgroundColorName == "Green" {
                     backgroundColorName = "Yellow"
                     backgroundColor = .yellow
